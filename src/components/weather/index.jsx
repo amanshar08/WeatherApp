@@ -62,7 +62,8 @@ export default function Weather() {
           <div className="date">
             <span>{getCurrentDate()}</span>
           </div>
-          <div className="temp">{weatherData?.main?.temp}</div>
+          <div className="temp">{weatherData?.main?.temp/10} deg</div>
+          
           <p className="description">
             {weatherData && weatherData.weather && weatherData.weather[0]
               ? weatherData.weather[0].description
@@ -71,13 +72,13 @@ export default function Weather() {
           <div className="weather-info">
             <div className="column">
               <div>
-                <p className="wind">{weatherData?.wind?.speed}</p>
+                <p className="wind">{weatherData?.wind?.speed} km/h</p>
                 <p>Wind Speed</p>
               </div>
             </div>
             <div className="column">
               <div>
-                <p className="humidity">{weatherData?.main?.humidity}%</p>
+                <p className="humidity">{weatherData?.main?.humidity} %</p>
                 <p>Humidity</p>
               </div>
             </div>

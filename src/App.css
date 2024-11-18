@@ -11,7 +11,7 @@ body {
   border-radius: 20px;
   height: 470px;
   padding: 20px 15px;
-  background: rgb(0, 255, 166);
+  background: rgb(40, 159, 107);
 }
 
 .search-engine {
@@ -24,7 +24,7 @@ body {
 }
 
 .search-engine input {
-  width: 70%;
+  width: 90%;
   height: 45px;
   border: 1px solid;
   border-radius: 8px;
@@ -32,13 +32,13 @@ body {
   font-size: 16px;
   outline: none;
   background-color: #ffffff;
-  color: #555555;
+  color: #b50909;
 }
 
 .search-engine button {
   border: none;
   border-radius: 8px;
-  background-color: #000000;
+  background-color: #9044c3;
   color: #fff;
   font-size: 20px;
   outline: none;
